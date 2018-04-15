@@ -1,0 +1,26 @@
+<!--about.wxml-->
+<view class="container">
+  <view class="header">
+    <view class="black-cover"></view>
+    <image class="logo" src="/images/more/logo.png"></image>
+    <image class="title" src="/images/more/title.png"></image>
+  </view>
+  <view class="content">
+    <view class="version">
+      <view class="version-title">
+        <text class="title-name">i 湖工大</text>
+        <text class="version-text">{{version}}</text>
+        <text class="version-text">原型内测版</text>
+      </view>
+    </view>
+    <view>
+    </view>
+  </view>
+  <view class="footer">
+    <view class="footer-lanshan">
+        <image src="/images/more/lanshan.png"></image>
+        <text>102程序员—追☆梦</text>
+    </view>
+    <text>Copyright @ {{year}} All Rights Reserved</text>
+  </view>
+</view>
